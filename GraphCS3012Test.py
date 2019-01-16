@@ -22,7 +22,6 @@ class Test_Find_Common(unittest.TestCase):
         self.assertEqual(7, Tree.find_common_ancestor(self.tree, 6, 8))
 
     def test_Treefind_common_different_levels(self):
-        #different subtrees and different levels, it should be the root
         self.assertEqual(3, Tree.find_common_ancestor(self.tree, 7, 1))
     
     def test_Treefind_common_parent_and_child(self):
