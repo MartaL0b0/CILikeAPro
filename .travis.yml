@@ -2,4 +2,4 @@
   python:
     - "3.6"
   script:
-    - ./GraphCS3012Test.py
+    - python -m unittest GraphCS3012Test.py
